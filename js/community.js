@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const tableContainer = document.getElementById("#post-table");
   
-    fetch("http://localhost:8080/post/all")
+    fetch("http://footballmania.com/post/all")
       .then(response => response.json())
       .then(data => {
         const table = document.createElement("table");
